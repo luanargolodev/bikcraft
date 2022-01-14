@@ -23,6 +23,7 @@
 
 .parceiros img {
   margin: auto;
+  max-width: 100%;
 }
 
 .parceiros li:first-child,
