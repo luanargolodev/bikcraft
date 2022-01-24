@@ -44,3 +44,23 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas); //Criar um loop com todos os botões
+
+// Galeria de Bicicletas
+const galeria = document.querySelectorAll(".bicicleta-imagens img"); // Selecionar todas as imagens na class bicicleta-imagens
+const galeriaContainer = document.querySelector(".bicicleta-imagens"); // Selecionar a imagem principal
+
+function trocarImagem(event) {
+  const img = event.currentTarget; // Obter a imagem clicada
+
+  const media = matchMedia("(min-width: 1000px)").matches; // Verificar se a tela é acima de 1000px
+  if (media) {
+    // Se for acima de 1000px
+    galeriaContainer.prepend(img); // Colocar a imagem clicada como imagem principal
+  }
+}
+
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
