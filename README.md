@@ -6,7 +6,7 @@
 ## 📖 Sobre
 
 <p>
-O projeto <b>Bikcraft</b> foi desenvolvido durante durante o curso de <b>UI Design para Iniciantes</b>, realizada pela <b><a href="https://origamid.com">Origamid</a></b> todo o curso. O <b>Bikcraft</b> é uma <b>empresa fictícia</b> criada com o propósito de <b>vender bicicletas elétricas</b>.
+O projeto <b>Bikcraft</b> foi desenvolvido durante o curso de <b>UI Design para Iniciantes</b>, realizada pela <b><a href="https://origamid.com">Origamid</a></b>. O <b>Bikcraft</b> é uma <b>empresa fictícia</b> criada com o propósito de <b>vender bicicletas elétricas</b>.
 </p>
 
 ---
